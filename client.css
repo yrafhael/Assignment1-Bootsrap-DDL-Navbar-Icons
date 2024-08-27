@@ -1,0 +1,36 @@
+body {
+    font-family: 'Fjalla One', sans-serif;
+  }
+
+
+  .rounded-3 {
+    border-radius: var(--bs-border-radius-lg) ;
+}
+.bg-body-tertiary {
+  
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity));
+}
+
+.p-5 {
+  padding: 3rem ;
+}
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+user agent stylesheet
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.md-3 {
+  margin-top: 1.5rem;
+}
+
+.mx-5 {
+  margin: 3rem;
+}
